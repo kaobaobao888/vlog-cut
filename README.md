@@ -4,6 +4,8 @@
 
 **GitHub**: https://github.com/kaobaobao888/vlog-cut
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/kaobaobao888/vlog-cut)
+
 ## 功能
 
 - 上传多个视频素材（支持 MP4、MOV、AVI、MKV、WebM）
