@@ -2,6 +2,8 @@
 
 根据上传的视频素材和文案，自动将视频切割成与文案段落对应的片段并拼接成完整 vlog。
 
+**GitHub**: https://github.com/kaobaobao888/vlog-cut
+
 ## 功能
 
 - 上传多个视频素材（支持 MP4、MOV、AVI、MKV、WebM）
@@ -61,6 +63,25 @@ npm run dev
 2. 上传一个或多个视频
 3. 点击「开始剪辑」
 4. 等待处理完成后下载视频
+
+## 在线部署
+
+### Render（推荐）
+
+1. 登录 [Render](https://render.com)
+2. 点击 New → Web Service
+3. 连接 GitHub 仓库 `kaobaobao888/vlog-cut`
+4. 选择 Docker 部署，使用项目根目录的 Dockerfile
+5. 创建服务后即可获得在线访问地址
+
+### Docker 本地运行
+
+```bash
+docker build -t vlog-cut .
+docker run -p 8000:8000 vlog-cut
+```
+
+访问 http://localhost:8000
 
 ## 项目结构
 

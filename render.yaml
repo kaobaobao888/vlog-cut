@@ -1,0 +1,8 @@
+# Render 部署配置 - 一键部署
+services:
+  - type: web
+    name: vlog-cut
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
